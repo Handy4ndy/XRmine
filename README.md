@@ -22,9 +22,9 @@ The world of cryptocurrency can be daunting, with numerous risks and scams. At X
 </ul>
 <h3>Tokenomics</h3>
 
-Blockchain: XRP Ledger
-Total Supply: 10,000,000,000 XRMine
-Breakdown:
+Blockchain: XRP Ledger<br>
+Total Supply: 10,000,000,000 XRMine<br>
+Breakdown:<br>
 <ul>
     <li>Airdrops: 60%</li>
     <li>Development: 15%</li>
