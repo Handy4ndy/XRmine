@@ -3,16 +3,13 @@ body {
   font-size: 12pt;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif ;
   max-width: 769px;
-  width: 90%;
-  padding: 10px;
+  width: 100%;
   margin: 0 auto; /* Center the content horizontally */
   text-align: center;
   background-image: url(img01.jpg);
   background-repeat: repeat-y;
   background-position: cover;
-  margin-right: 5%;
-  margin-left: 5%;
-  
+  padding-top: 5px;
 }
 
 /* ------------------------Header----------------------------- */
@@ -21,7 +18,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 90%;
   min-height: fit-content;
   background-color: #0069E0;
   border-style: solid;
@@ -29,7 +26,6 @@ header {
   border-width: 2px;
   border-radius: 5px;
   margin: auto;
-  box-sizing: border-box; /* Add box-sizing property */
   padding: 10px; /* Move padding here */
 }
 
@@ -77,8 +73,6 @@ main {
   margin: 20px auto; /* Center the main content horizontally and add top margin */
   background-color: white;
   border-radius: 5px;
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 main p {
