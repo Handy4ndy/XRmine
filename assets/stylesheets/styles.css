@@ -1,13 +1,13 @@
 /* Global styles */
 body {
   font-size: 12pt;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
   max-width: 769px;
   width: 100%;
   padding: 10px;
   margin: 0 auto; /* Center the content horizontally */
   text-align: center;
-  background-image: url(../images/img01.jpg);
+  background-image: url(/assets/images/img01.jpg);
   background-repeat: repeat-y;
   background-position: cover;
   background-color: #0069E0;
