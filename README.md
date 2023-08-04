@@ -10,23 +10,23 @@ The world of cryptocurrency can be daunting, with numerous risks and scams. At X
 
 <h3>What We Aim to Do</h3>
 <ul>
-    <li>Develop an onboarding platform for the XRPL to offer a safe and engaging introduction to cryptocurrency.</li>
-    <li>Showcase some of the most innovative community projects on the XRPL.</li>
-    <li>Educate users on blockchain technology and the potential of the XRPL.</li>
+<li>Develop an onboarding platform for the XRPL to offer a safe and engaging introduction to cryptocurrency.</li>
+<li>Showcase some of the most innovative community projects on the XRPL.</li>
+<li>Educate users on blockchain technology and the potential of the XRPL.</li>
 </ul>
 <h3>How We'll Do It</h3>
 
-    Utilize the power of Xumm, a non-custodial XRPL wallet, for sign-in and authentication.
-    Require users to view project whitepapers before setting trustlines or participating in airdrops.
-    Implement a unique "mining" mechanism, where users engage with projects to earn their assets as rewards.
+Utilize the power of Xumm, a non-custodial XRPL wallet, for sign-in and authentication.
+Require users to view project whitepapers before setting trustlines or participating in airdrops.
+Implement a unique "mining" mechanism, where users engage with projects to earn their assets as rewards.
 
 <h3>Tokenomics</h3>
 
-    Blockchain: XRP Ledger
-    Total Supply: 10,000,000,000 XRMine
-    Breakdown:
-    <ul>
-        <li>Airdrops: 60%</li>
-       <li>Development: 15%</li>
-        <li>Team & Owners: 15%</li>
-        <li>Liquidity: 10%</li>
+Blockchain: XRP Ledger
+Total Supply: 10,000,000,000 XRMine
+Breakdown:
+<ul>
+    <li>Airdrops: 60%</li>
+    <li>Development: 15%</li>
+    <li>Team & Owners: 15%</li>
+    <li>Liquidity: 10%</li>
