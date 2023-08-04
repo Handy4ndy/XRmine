@@ -10,6 +10,8 @@ body {
   background-image: url(img01.jpg);
   background-repeat: repeat-y;
   background-position: cover;
+  margin-right: 5%;
+  margin-left: 5%;
   
 }
 
