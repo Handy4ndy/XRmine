@@ -1,7 +1,7 @@
 /* Global styles */
 body {
   font-size: 12pt;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif ;
   max-width: 769px;
   width: 100%;
   padding: 10px;
@@ -90,6 +90,8 @@ main p {
   width: 50%;
 }
 
+/* 3 inline divs with responsive flex layout*/
+
 .box1 {
   display: inline-flex;
   flex-wrap: wrap;
@@ -120,6 +122,85 @@ main p {
   text-align: center;
   font-size: 14px;
   color: #F7FFF6;
+}
+
+/* XRmine demo page */
+
+
+/* Main styles */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Section1 styles */
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  max-width: 300px; /* Adjust the max-width as needed for responsiveness */
+  padding: 20px;
+  border: 1px solid #000000; /* Optional: Add border for visual clarity */
+  border-radius: 5px; /* Optional: Add border radius for rounded corners */
+  margin: 10px;
+}
+
+.token-name {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.token-image-container {
+  width: 100px;
+  height: 100px;
+  background-color: #efefef;
+  border: solid;
+  border-color:black;
+  border-width: 1px;
+  overflow: hidden;
+  border-radius: 50%; /* Make the image round */
+  margin-bottom: 10px;
+}
+
+.token-image {
+  width: 100%;
+  height: 100%;
+  background-color: #efefef;
+  object-fit: cover;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.whitepaper-button,
+.trustline-button {
+  display: flex;
+  align-items: center;
+}
+
+.whitepaper-button label,
+.trustline-button label {
+  margin-right: 5px;
+}
+
+.whitepaper-button button,
+.trustline-button button {
+  padding: 5px 10px;
+  background-color: #007bff; /* Adjust the color as needed */
+  color: #fff; /* Adjust the color as needed */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 
