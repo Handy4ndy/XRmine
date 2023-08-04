@@ -15,11 +15,11 @@ The world of cryptocurrency can be daunting, with numerous risks and scams. At X
 <li>Educate users on blockchain technology and the potential of the XRPL.</li>
 </ul>
 <h3>How We'll Do It</h3>
-
-Utilize the power of Xumm, a non-custodial XRPL wallet, for sign-in and authentication.
-Require users to view project whitepapers before setting trustlines or participating in airdrops.
-Implement a unique "mining" mechanism, where users engage with projects to earn their assets as rewards.
-
+<ul>
+<li>Utilize the power of Xumm, a non-custodial XRPL wallet, for sign-in and authentication.</li>
+<li>Require users to view project whitepapers before setting trustlines or participating in airdrops.</li>
+<li>Implement a unique "mining" mechanism, where users engage with projects to earn their assets as rewards.</li>
+</ul>
 <h3>Tokenomics</h3>
 
 Blockchain: XRP Ledger
