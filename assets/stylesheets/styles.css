@@ -126,12 +126,13 @@ main p {
 .section1 {
   display: inline flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #F7FFF6;
   min-width: 150px;
   max-width: 25%; /* Adjust the max-width as needed for responsiveness */
   padding: 5px;
-  border: 1px solid #000000; /* Optional: Add border for visual clarity */
+  border: 1px solid #0E1C36; /* Optional: Add border for visual clarity */
   border-radius: 5px; /* Optional: Add border radius for rounded corners */
   margin: 10px;
 }
