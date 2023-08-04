@@ -101,9 +101,9 @@ main p {
 .box2 {
   flex-basis: 20%; 
   text-align: center;
-  background-color: #0E1C36;
+  background-color: #0069E0;
   border: solid;
-  border-color: #1d0fdd;
+  border-color: #0E1C36;
   border-width: 1px;
   border-radius: 5px;
   padding: 2px;
@@ -119,6 +119,7 @@ main p {
 .box2 p {
   text-align: center;
   font-size: 14px;
+  color: #F7FFF6;
 }
 
 
