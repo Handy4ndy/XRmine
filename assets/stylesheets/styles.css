@@ -128,7 +128,7 @@ main p {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  background-color: #F7FFF6;
+  background-color: #f2f2fe;
   min-width: 150px;
   max-width: 25%; /* Adjust the max-width as needed for responsiveness */
   padding: 5px;
@@ -147,7 +147,7 @@ main p {
 .token-image-container {
   width: 100px;
   height: 100px;
-  background-color: #efefef;
+  background-color: #f2f2fe;
   border: solid;
   border-color:black;
   border-width: 1px;
