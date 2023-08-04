@@ -127,14 +127,6 @@ main p {
 /* XRmine demo page */
 
 
-/* Main styles */
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
 /* Section1 styles */
 .section1 {
   display: flex;
@@ -157,8 +149,8 @@ main {
 }
 
 .token-image-container {
-  width: 100px;
-  height: 100px;
+  width: 20%;
+  height: 20%;
   background-color: #efefef;
   border: solid;
   border-color:black;
