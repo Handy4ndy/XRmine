@@ -19,7 +19,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   min-height: fit-content;
   background-color: #0069E0;
   border-style: solid;
@@ -51,14 +51,14 @@ header {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  padding: 10px;
+  
 }
 
 a {
   color: #F7FFF6;
   padding-bottom: 3px;
   text-decoration-style: none;
-  padding: 10px;
+  padding: 5px;
 }
 
 a:hover {
