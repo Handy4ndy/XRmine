@@ -22,7 +22,7 @@ header {
   min-height: fit-content;
   background-color: #0069E0;
   border-style: solid;
-  border-color: #F7FFF6;
+  border-color: #f2f2fe;
   border-width: 2px;
   border-radius: 5px;
   margin: auto;
@@ -33,14 +33,14 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #F7FFF6;
+  color: #f2f2fe;
   margin-top: 10px;
 }
 
 .logo {
   width: 15%;
   min-width: 300px;
-  color: #F7FFF6;
+  color: #f2f2fe;
   padding-top: 5px;
 }
 
@@ -71,7 +71,7 @@ a:hover {
 main {
   width: 100%;
   margin: 20px auto; /* Center the main content horizontally and add top margin */
-  background-color: white;
+  background-color: #f2f2fe;
   border-radius: 5px;
 }
 
@@ -116,7 +116,7 @@ main p {
 .box2 p {
   text-align: center;
   font-size: 14px;
-  color: #F7FFF6;
+  color: #f2f2fe;
 }
 
 /* XRmine demo page */
@@ -185,7 +185,7 @@ main p {
 .trustline-button button {
   padding: 5px 10px;
   background-color: #007bff; /* Adjust the color as needed */
-  color: #fff; /* Adjust the color as needed */
+  color: #f2f2fe; /* Adjust the color as needed */
   border: none;
   border-radius: 4px;
   cursor: pointer;
