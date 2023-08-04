@@ -134,8 +134,8 @@ main p {
   align-items: center;
   background-color: #ffffff;
   margin-bottom: 20px;
-  max-width: 300px; /* Adjust the max-width as needed for responsiveness */
-  padding: 20px;
+  max-width: 30%; /* Adjust the max-width as needed for responsiveness */
+  padding: 10px;
   border: 1px solid #000000; /* Optional: Add border for visual clarity */
   border-radius: 5px; /* Optional: Add border radius for rounded corners */
   margin: 10px;
@@ -149,7 +149,7 @@ main p {
 }
 
 .token-image-container {
-  width: 100[x];
+  width: 100px;
   height: 100px;
   background-color: #efefef;
   border: solid;
