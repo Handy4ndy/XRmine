@@ -1,0 +1,188 @@
+/* Global styles */
+body {
+  font-size: 12pt;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  max-width: 769px;
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto; /* Center the content horizontally */
+  text-align: center;
+  background-image: url(/assets/images/img01.jpg);
+  background-repeat: repeat-y;
+  background-position: cover;
+  background-color: #fff; /* Set a white background to cover the background image */
+}
+
+/* ------------------------Header----------------------------- */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  min-height: fit-content;
+  background-color: #0069E0;
+  border-style: solid;
+  border-color: #F7FFF6;
+  border-width: 2px;
+  border-radius: 5px;
+  margin: auto;
+  box-sizing: border-box; /* Add box-sizing property */
+  padding: 10px; /* Move padding here */
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F7FFF6;
+  margin-top: 10px;
+}
+
+.logo {
+  width: 15%;
+  min-width: 300px;
+  color: #F7FFF6;
+  padding-top: 5px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a {
+  color: #F7FFF6;
+  padding-bottom: 3px;
+  text-decoration-style: none;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: #0E1C36;
+}
+
+.selected {
+  background-color: #0E1C36;
+}
+
+/* ------------------------Main----------------------------- */
+main {
+  width: 90%;
+  margin: 20px auto; /* Center the main content horizontally and add top margin */
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+main p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.xrplLogo {
+  max-width: 350px;
+  width: 50%;
+}
+
+.box1 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #F7FFF6;
+  padding-bottom: 20px;
+}
+
+.box2 {
+  flex-basis: 20%; 
+  text-align: center;
+  background-color: #0E1C36;
+  border: solid;
+  border-color: #1d0fdd;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 2px;
+}
+
+.box2 img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.box2 p {
+  text-align: center;
+  font-size: 14px;
+}
+
+
+/* ------------------------Footer----------------------------- */
+
+footer {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f0f0f0; /* Optional: Add a background color */
+  border-radius: 5px;
+}
+
+.footer-text {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px; /* Add spacing between the text and links */
+}
+
+.footer-links {
+  display: inline-flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links p {
+  align-self: center;
+}
+
+.footer-links a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #0069E0; /* Optional: Customize link color */
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  .navbar {
+    margin-top: 10px; /* Add some spacing between header elements */
+  }
+
+  main {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%; /* Adjust the width for smaller screens */
+  }
+
+  .box2 {
+    flex-basis: 100%; /* Full width when the screen size is reduced */
+    margin-bottom: 20px; /* Add some spacing between stacked boxes */
+  }
+
+  footer {
+    flex-direction: column;
+  }
+}
