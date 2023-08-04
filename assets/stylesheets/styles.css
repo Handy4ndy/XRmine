@@ -7,7 +7,7 @@ body {
   padding: 10px;
   margin: 0 auto; /* Center the content horizontally */
   text-align: center;
-  background-image: url(img01.jpg);
+  background-image: url(/assets/stylesheets/img01.jpg);
   background-repeat: repeat-y;
   background-position: cover;
   
