@@ -271,6 +271,11 @@ button{
   margin-top: 10px;
 }
 
+#feedback.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
 
 
 /* ------------------------Footer----------------------------- */
