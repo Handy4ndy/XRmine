@@ -93,7 +93,7 @@ input[type="submit"] {
   border-radius: 5px;
 }
 
-button{
+#setTL {
   background-color: #0069E0;
   color: #ffffff;
   padding: 10px;
