@@ -226,7 +226,7 @@ main p {
   object-fit: cover;
 }
 
-.token-info {
+#token-info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -234,10 +234,7 @@ main p {
   margin-bottom: 10px;
 }
 
-.token-info p {
-  font-size: 16px;
-  text-align: center;
-}
+
 
 #miningPageButton {
   padding: 5px 10px;
