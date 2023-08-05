@@ -80,6 +80,10 @@ main p {
   margin-right: 5%;
 }
 
+h1{
+  padding-top:20px;
+}
+
 .xrplLogo {
   max-width: 350px;
   width: 50%;
