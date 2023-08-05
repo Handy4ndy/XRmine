@@ -89,6 +89,9 @@ h1{
   width: 50%;
 }
 
+#xrmineTL{
+  padding-bottom: 20px;
+}
 /* 3 inline divs with responsive flex layout*/
 
 .box1 {
