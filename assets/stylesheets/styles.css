@@ -334,6 +334,11 @@ footer {
     margin-bottom: 20px; /* Add some spacing between stacked boxes */
   }
 
+  .lnLogo {
+    flex-basis: 100%;
+
+  }
+
   footer {
     flex-direction: column;
   }
