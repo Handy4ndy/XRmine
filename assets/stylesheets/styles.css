@@ -2,7 +2,6 @@
 body {
   font-size: 12pt;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif ;
-  max-width: 769px;
   width: 100%;
   margin: 0 auto; /* Center the content horizontally */
   text-align: center;
@@ -18,7 +17,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 90%;
+  width: 80%;
   min-height: fit-content;
   background-color: #0069E0;
   border-style: solid;
@@ -77,8 +76,9 @@ main {
 }
 
 main p {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin:auto;
+  width: 70%;
+  padding: 10px;
 }
 
 h1{
@@ -326,13 +326,18 @@ footer {
 }
 
 /* Media queries for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 520px) {
   header {
     flex-direction: column;
   }
 
   .navbar {
-    margin-top: 10px; /* Add some spacing between header elements */
+    flex-direction: column;
+    text-align: center;
+  }
+
+  a {
+    padding: 10px 0; /* Add vertical padding to links */
   }
 
   main {
