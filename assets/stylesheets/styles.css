@@ -108,6 +108,10 @@ input[type="submit"] {
 #xrmineTL{
   padding-bottom: 20px;
 }
+
+ol {
+  margin: auto;
+}
 /* 3 inline divs with responsive flex layout*/
 
 .box1 {
