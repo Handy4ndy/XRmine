@@ -117,7 +117,7 @@ ol {
 
 label {
   display: block;
-  margin-bottom: 10px; /* Optional: Add some spacing between label and input */
+  float: left;
 }
 /* 3 inline divs with responsive flex layout*/
 
