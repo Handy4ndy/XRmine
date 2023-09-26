@@ -29,20 +29,12 @@ header {
     padding-top: 5px;
   }
   
-  .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    
-  }
-  
-  a {
+  .navbar a {
     color: #ffffff;
     padding-bottom: 3px;
     text-decoration-style: none;
-    margin: auto;
     padding: 5px;
+    margin: 5px;
   }
   
   a:hover {
