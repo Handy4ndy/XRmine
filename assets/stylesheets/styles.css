@@ -73,6 +73,7 @@ main {
   margin: 20px auto; /* Center the main content horizontally and add top margin */
   background-color: #ffffff;
   border-radius: 5px;
+  padding-bottom: 20px;
 }
 
 main p {
@@ -111,6 +112,12 @@ input[type="submit"] {
 
 ol {
   margin: auto;
+  width: 70%;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px; /* Optional: Add some spacing between label and input */
 }
 /* 3 inline divs with responsive flex layout*/
 
