@@ -53,11 +53,7 @@
 
     
 
-    <form id="whitelist"
-  action="https://formspree.io/f/xyyqnqny"
-  method="POST"
-  enctype="multipart/form-data"
->
+    <form id="whitelist" action="https://formspree.io/f/xyyqnqny" method="POST">
 
 <label for="name">Project Name:</label>
 <input type="text" id="name" name="name" required>
@@ -66,12 +62,11 @@
 <input type="email" id="email" name="email" required>
 <br><br>
 <label for="message">Message:</label>
-<textarea id="message" name="message" rows="8" cols="40" required>Please let us know about your project</textarea>
+<textarea id="message" name="message" rows="8" cols="40" required placeholder="register your interest"></textarea>
 <br><br>
-  <label>
-    File upload:
-    <input type="file" name="upload">
-  </label>
+<label for="fileup">file upload:</label>
+<input type="file" id="fileup" name="upload">
+  
   <button type="submit">Send</button>
 </form>
 
