@@ -52,7 +52,7 @@ header {
     background-color: #0E1C36;
   }
 
-@media (max-width: 520px) {
+@media (max-width: 769px) {
     header {
       flex-direction: column;
     }
