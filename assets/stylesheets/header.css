@@ -53,14 +53,12 @@ header {
   }
 
 @media (max-width: 769px) {
-    header {
-      flex-direction: column;
-    }
-  
+    
     .navbar {
       flex-direction: row;
       flex-wrap: wrap;
       text-align: center;
+      margin: auto;
     }
   
     a {
