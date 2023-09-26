@@ -269,7 +269,7 @@ input[type="submit"] {
   margin-top: 10px;
 }
 
-#feedback.label {
+.feedback.label {
   display: block;
   margin-bottom: 5px;
 }
