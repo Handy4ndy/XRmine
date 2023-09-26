@@ -332,19 +332,16 @@ footer {
   }
 
   .navbar {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
   }
 
   a {
+    margin: auto;
     padding: 10px 0; /* Add vertical padding to links */
   }
 
-  main {
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%; /* Adjust the width for smaller screens */
-  }
 
   .box2 {
     flex-basis: 60%; /* Full width when the screen size is reduced */
