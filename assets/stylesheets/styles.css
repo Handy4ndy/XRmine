@@ -225,12 +225,15 @@ label {
   margin-top: 10px;
 }
 
+.feedback.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
 .whitepaperPdf{
-    width:50%;
-    height: 700px;
-  }
-
-
+  width: 50%;
+  height:700px;
+}
 /* ------------------------Footer----------------------------- */
 
 footer {
@@ -283,6 +286,7 @@ footer {
   }
 
   .whitepaperPdf{
-    width:50%;
+    width: 100%;
+    height: 700px;
   }
 }
