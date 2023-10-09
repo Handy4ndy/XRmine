@@ -281,4 +281,8 @@ footer {
   footer {
     flex-direction: column;
   }
+
+  .whitepaperPdf{
+    width: 70%;
+  }
 }
