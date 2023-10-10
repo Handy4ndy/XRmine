@@ -234,6 +234,18 @@ label {
   width: 50%;
   height:700px;
 }
+
+.feedback{
+  width: 70%;
+  height: 1000px;
+  border-style: none;
+}
+
+.whitelist{
+  width: 70%;
+  height: 2000px;
+  border-style: none;
+}
 /* ------------------------Footer----------------------------- */
 
 footer {
