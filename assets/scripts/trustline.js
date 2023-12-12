@@ -28,12 +28,14 @@ function xrmineTrustline() {
     }, eventMessage => {
         if (Object.keys(eventMessage.data).indexOf('opened') > -1) {
             console.log("payload sent to user");
+            return eventMessage;
+        
         }
         if (Object.keys(eventMessage.data).indexOf('signed') > -1) {
             document.getElementById('qrCodeModal').style.display = 'none';
             return eventMessage;
         }
-        if (Object.keys(eventMessage.data).indexOf('rejected') > -1) {
+        if (Object.keys(eventMessage.data).indexOf('closed') > -1) {
             document.getElementById('qrCodeModal').style.display = 'none';
             xumm.logout();
             return eventMessage;
