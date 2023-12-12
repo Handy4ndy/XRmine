@@ -3,7 +3,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 80%;
+    width: max-content;
     min-height: fit-content;
     background-color: #0069E0;
     border-style: solid;
