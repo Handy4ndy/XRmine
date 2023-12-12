@@ -1,3 +1,7 @@
+ xumm.on("success", async () => {
+     xrmineTrustline();
+    });
+
 function xrmineTrustline() {
     
     xumm.payload.createAndSubscribe({
