@@ -1,5 +1,17 @@
+document.addEventListener('DOMContentLoaded', function () {
+    // Check if the user is logged in
+    let isLoggedIn = sessionStorage.getItem('isLoggedIn')
+
+    if (isLoggedIn) {
+        // User is logged in, perform any necessary cleanup
+        console.log("User logged out");
+        xumm.logout();
+    }
+});
+ 
  xumm.on("success", async () => {
      xrmineTrustline();
+     sessionStorage.setItem('isLoggedIn', 'true')
     });
 
 function xrmineTrustline() {
@@ -19,6 +31,11 @@ function xrmineTrustline() {
         }
         if (Object.keys(eventMessage.data).indexOf('signed') > -1) {
             document.getElementById('qrCodeModal').style.display = 'none';
+            return eventMessage;
+        }
+        if (Object.keys(eventMessage.data).indexOf('rejected') > -1) {
+            document.getElementById('qrCodeModal').style.display = 'none';
+            xumm.logout();
             return eventMessage;
         }
     })
@@ -43,8 +60,9 @@ function xrmineTrustline() {
             console.log('XRMine Trustline added');
             // Optionally, you can keep the user on the home page or perform another action
             alert("XRMine Trustline has been set");
+            document.getElementById('qrCodeModal').style.display = 'none';
             xumm.logout();
-            window.location.href = "https://handy4ndy.github.io/XRmine_0.0.1/";
+            sessionStorage.removeItem('isLoggedIn')
             
 
         } else {
@@ -53,8 +71,8 @@ function xrmineTrustline() {
             // Optionally, you can keep the user on the home page or perform another action
             alert("Error setting Trustline - user logged out");
             xumm.logout();
-            window.location.href = "https://handy4ndy.github.io/XRmine_0.0.1/";
-            
+            document.getElementById('qrCodeModal').style.display = 'none';
+            sessionStorage.removeItem('isLoggedIn')
         }
     })
     .catch(error => {
@@ -66,5 +84,6 @@ function xrmineTrustline() {
 
 function closeQRCodeModal() {
     document.getElementById('qrCodeModal').style.display = 'none';
+    alert("Error setting Trustline - user logged out");
     xumm.logout();
 }
