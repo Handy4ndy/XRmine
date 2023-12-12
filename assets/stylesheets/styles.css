@@ -1,6 +1,6 @@
 /* Global styles */
 body {
-  font-size: 12pt;
+  font-size: 10pt;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif ;
   width: 100%;
   margin: 0 auto; /* Center the content horizontally */
@@ -15,7 +15,6 @@ body {
 main {
   width: 100%;
   margin: 20px auto; /* Center the main content horizontally and add top margin */
-  background-color: #ffffff;
   border-radius: 5px;
   padding-bottom: 20px;
 }
@@ -64,6 +63,12 @@ label {
   display: block;
   float: left;
 }
+
+Section{
+  background-color: #ffffff;
+  margin: 10px;
+}
+
 /* 3 inline divs with responsive flex layout*/
 
 .box1 {
