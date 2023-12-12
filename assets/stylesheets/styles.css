@@ -9,6 +9,7 @@ body {
   background-repeat: repeat-y;
   background-position: cover;
   padding-top: 5px;
+
 }
 
 /* ------------------------Main----------------------------- */
@@ -17,6 +18,10 @@ main {
   margin: 20px auto; /* Center the main content horizontally and add top margin */
   border-radius: 5px;
   padding-bottom: 20px;
+}
+
+video {
+  width: 80%;
 }
 
 main p {
