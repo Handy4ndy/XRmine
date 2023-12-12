@@ -32,6 +32,8 @@
         </nav>
     
     </header>
+
+    <!--------------Main---------------->
     <main>
         <section>
         <h1>Welcome to XRmine.</h1>
@@ -93,12 +95,8 @@
                 <button id="setTL" onclick="window.open('https://xrpl.services/?issuer=rfXMq3BMX2dTzJtG4pnhr49u6sHkVQXpWL&currency=58524D696E650000000000000000000000000000&limit=9999999875', '_blank')">Set Our Trustline</button>
 
                 <br><br>
-
-                
         
             </section>
-
-        
 
     </main>
 
@@ -126,7 +124,8 @@
 
     </footer>
     
-    
+    <script src="assets/scripts/xrpl-latest-min.js"></script>
+    <script>xumm.on("ready", () => console.log("Ready -Awaiting user sign in"));</script>
     
 </body>
 </html>
