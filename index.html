@@ -92,11 +92,19 @@
         
                 <p>Ready to embark on an extraordinary crypto adventure? Welcome aboard XRmine - where exploration meets rewards, and the XRPL becomes your playground.</p>
 
-                <button id="setTL" onclick="window.open('https://xrpl.services/?issuer=rfXMq3BMX2dTzJtG4pnhr49u6sHkVQXpWL&currency=58524D696E650000000000000000000000000000&limit=9999999875', '_blank')">Set Our Trustline</button>
+                <button id="setTL" disabled onclick="xrmineTrustline()">trustline</button>
 
                 <br><br>
         
             </section>
+
+            <div id="qrCodeModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeQRCodeModal()">&times;</span>
+                    <img id="qrCodeImage" alt="QR Code">
+                    <p> Scan the Qr or Sign the request in the Xumm App</p>
+                </div>
+            </div>
 
     </main>
 
@@ -124,12 +132,12 @@
 
     </footer>
     
-    <script src="assets/scripts/xrpl-latest-min.js"></script>
     <script src="https://xumm.app/assets/cdn/xumm.min.js"></script>
     <script>
     var xumm = new Xumm('66285bb2-33b7-406b-83de-9ccfcc2103cd');
     xumm.on("ready", () => console.log("Ready -Awaiting user sign in"));
     </script>
+    <script src="assets/scripts/trustline.js"></script>
     
 </body>
 </html>
