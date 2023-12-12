@@ -113,10 +113,12 @@ Section{
 .modal {
   display: none;
   position: fixed;
-  top:25%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 1;
   width: 300px;
-  }
+}
   
   .modal-content {
   background-color: #fefefe;
