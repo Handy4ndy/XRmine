@@ -1,14 +1,23 @@
 /* Global styles */
 body {
   font-size: 12pt;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
   width: 100%;
   margin: 0 auto; /* Center the content horizontally */
   text-align: center;
-  background-image: url(img01.jpg);
-  background-repeat: repeat-y;
-  background-position: cover;
-  padding-top: 5px;
+  overflow: hidden; /* Hide the overflowing video */
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1; /* Place the video behind the content */
 }
 
 /* ------------------------Main----------------------------- */
