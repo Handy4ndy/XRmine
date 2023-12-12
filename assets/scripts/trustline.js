@@ -40,13 +40,21 @@ function xrmineTrustline() {
         
         if (payload.data && payload.data.signed) {
             //the payload is signed
+            console.log('XRMine Trustline added');
+            // Optionally, you can keep the user on the home page or perform another action
+            alert("XRMine Trustline has been set");
+            xumm.logout();
+            window.location.href = "https://handy4ndy.github.io/XRmine_0.0.1/";
+            
 
         } else {
             // Handle the case where the payload is not signed (rejected)
-            console.log('Payload rejected');
+            console.log('XRMine Trustline rejected');
             // Optionally, you can keep the user on the home page or perform another action
-            alert("Payload rejected. Returning to home page");
+            alert("Error setting Trustline - user logged out");
+            xumm.logout();
             window.location.href = "https://handy4ndy.github.io/XRmine_0.0.1/";
+            
         }
     })
     .catch(error => {
