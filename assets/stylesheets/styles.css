@@ -1,6 +1,6 @@
 /* Global styles */
 body {
-  font-size: 10pt;
+  font-size: 12pt;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif ;
   width: 100%;
   margin: 0 auto; /* Center the content horizontally */
@@ -296,7 +296,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  max-width: 80%;
+  max-width: 70%;
   margin-top: 10px;
   padding: 10px;
   background-color: #f0f0f0; /* Optional: Add a background color */
