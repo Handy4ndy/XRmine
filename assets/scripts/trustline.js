@@ -1,4 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
+
+    const videoContainer = document.getElementById('video-container');
+    videoContainer.style.display = 'flex';
+
+    var xumm = new Xumm('66285bb2-33b7-406b-83de-9ccfcc2103cd');
+    xumm.on("ready", () => console.log("Ready -Awaiting user sign in"));
+    
     // Check if the user is logged in
     let isLoggedIn = sessionStorage.getItem('isLoggedIn')
 
@@ -7,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log("User logged out");
         xumm.logout();
     }
+
 });
  
  xumm.on("success", async () => {

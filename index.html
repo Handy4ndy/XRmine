@@ -43,7 +43,7 @@
                     mission to increase accessibility and empower you to navigate the exciting world of cryptocurrency with confidence.
                 </p>
 
-                <video autoplay loop muted >
+                <video class="introVideo" autoplay loop muted >
                     <source src="assets/images/XRMine-Intro.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                   </video>
@@ -99,6 +99,8 @@
         
             </section>
 
+            <!--------QR popup window--------->
+
             <div id="qrCodeModal" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeQRCodeModal()">&times;</span>
@@ -106,6 +108,16 @@
                     <p> Scan the Qr or Sign the request in the Xumm App</p>
                 </div>
             </div>
+
+            <!---------------Video popup------------------->
+            <div id="video-container">
+                <div id="video-popup">
+                  <video autoplay loop muted>
+                    <source src="assets/images/XRMine-Intro.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
 
     </main>
 
@@ -136,9 +148,9 @@
 
     
     <script src="https://xumm.app/assets/cdn/xumm.min.js"></script>
-    <script>
+    <script>/*
     var xumm = new Xumm('66285bb2-33b7-406b-83de-9ccfcc2103cd');
-    xumm.on("ready", () => console.log("Ready -Awaiting user sign in"));
+    xumm.on("ready", () => console.log("Ready -Awaiting user sign in"));*/
     </script>
     <script src="assets/scripts/trustline.js"></script>
     
