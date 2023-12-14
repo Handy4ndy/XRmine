@@ -97,3 +97,8 @@ function closeQRCodeModal() {
     alert("Error setting Trustline - user logged out");
     xumm.logout();
 }
+
+function closeVideoPopup() {
+    const videoContainer = document.getElementById('video-container');
+    videoContainer.style.display = 'none';
+  }

@@ -38,6 +38,15 @@ video {
   object-fit: cover;
 }
 
+#close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
 /* ------------------------Main----------------------------- */
 main {
   width: 80%;
