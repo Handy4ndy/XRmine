@@ -21,7 +21,7 @@ body {
   width: 100%;
   height: 100%;
   display: none;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.8);
   justify-content: center;
   align-items: center;
   z-index: 2;
@@ -33,8 +33,8 @@ body {
 }
 
 video {
-  width: 100%;
-  height: 100%;
+  margin-top: 20px;
+  width: 80%;
   object-fit: cover;
 }
 
@@ -370,6 +370,22 @@ footer {
 
 /* Media queries for smaller screens */
 @media (max-width: 769px) {
+  
+  #video-container {
+  top: -50px;
+}
+
+#video-popup {
+  max-width: 100%;
+}
+
+video {
+  margin-top: 0px;
+  width: 100%;
+  object-fit: cover;
+}
+  
+  
 
   .box2 {
     flex-basis: 60%; /* Full width when the screen size is reduced */
