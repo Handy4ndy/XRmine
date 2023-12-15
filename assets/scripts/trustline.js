@@ -58,6 +58,7 @@ function xrmineTrustline() {
         document.getElementById('qrCodeImage').src = created.refs.qr_png;
         document.getElementById('qrCodeLink').src = created.next.always;
         document.getElementById('qrCodeModal').style.display = 'block';
+        xumm.xapp.openSignRequest(payload)
 
         
 
