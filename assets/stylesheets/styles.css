@@ -31,14 +31,13 @@ body {
 }
 
 .introVideo{
-  flex:1;
+  flex:2;
   padding:0;
   margin:0;
 }
 
 .introVideo video{
   width:100%;
-  margin-left:-50px;
   padding-top: 5px;
 }
 
@@ -274,8 +273,16 @@ footer {
 /* Media queries for smaller screens */
 @media (max-width: 769px) {
   
+  main{
+    width:100%;
+  }
+  
   h1{
     margin:0;
+  }
+  
+  main p{
+    width:90%;
   }
 
 #video-popup {
