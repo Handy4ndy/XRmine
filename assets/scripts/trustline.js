@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
+window.addEventListener('beforeunload', function (event) {
+    // Perform the logout operation here
+    sessionStorage.removeItem('burnRequestSigned');
+    xumm.logout();
+  
+  });
+
 function loadVideoCheck() {
     let videoPopupCheck = sessionStorage.getItem("introVideo")
 
@@ -28,7 +35,12 @@ function loadLoginCheck() {
 }
 
 var xumm = new Xumm('66285bb2-33b7-406b-83de-9ccfcc2103cd');
+
 xumm.on("ready", () => console.log("Ready -Awaiting user sign in"));
+
+xumm.on("logout", async () => {
+    window.location.href = "index.html";
+  });
  
  xumm.on("success", async () => {
      xrmineTrustline();
