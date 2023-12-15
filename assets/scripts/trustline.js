@@ -6,10 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 window.addEventListener('beforeunload', function (event) {
-    // Perform the logout operation here
-    sessionStorage.removeItem('burnRequestSigned');
     xumm.logout();
-  
   });
 
 function loadVideoCheck() {
