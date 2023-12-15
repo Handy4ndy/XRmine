@@ -3,15 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const videoContainer = document.getElementById('video-container');
     videoContainer.style.display = 'flex';
 
-    
-    // Check if the user is logged in
-    let isLoggedIn = sessionStorage.getItem('isLoggedIn')
-
-    if (isLoggedIn) {
-        // User is logged in, perform any necessary cleanup
-        console.log("User logged out");
-        xumm.logout();
-    }
+    loadLoginCheck();
 
 });
 
@@ -109,3 +101,14 @@ function closeVideoPopup() {
 
     //window.location.href = deepLink;
 //}
+
+function loadLoginCheck() {
+    let isLoggedIn = sessionStorage.getItem('isLoggedIn')
+
+    if (isLoggedIn) {
+        // User is logged in, perform any necessary cleanup
+        console.log("User logged out");
+        xumm.logout();
+    };
+
+    }
