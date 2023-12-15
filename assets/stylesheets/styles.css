@@ -93,6 +93,7 @@ main p {
 
 h1{
   padding-top:5px;
+  margin:0;
 }
 
 input[type="submit"] {
@@ -273,17 +274,24 @@ footer {
 /* Media queries for smaller screens */
 @media (max-width: 769px) {
   
+  h1{
+    margin:0;
+  }
+
 #video-popup {
   max-width: 100%;
 }
 
+  .introSection{
+    display:block;
+  }  
 video {
   margin-top: 0px;
   width: 100%;
   object-fit: cover;
 }
   
-  
+
 
   .box2 {
     flex-basis: 60%; /* Full width when the screen size is reduced */
