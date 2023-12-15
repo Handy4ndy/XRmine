@@ -1,8 +1,31 @@
 document.addEventListener('DOMContentLoaded', function () {
+
     loadVideoCheck();
     loadLoginCheck();
 
 });
+
+function loadVideoCheck() {
+    let videoPopupCheck = sessionStorage.getItem("introVideo")
+
+    if (!videoPopupCheck){
+    const videoContainer = document.getElementById('video-container');
+    videoContainer.style.display = 'flex';
+    sessionStorage.setItem("introVideo", "true")
+    }
+    
+}
+
+function loadLoginCheck() {
+    let isLoggedIn = sessionStorage.getItem('isLoggedIn')
+
+    if (isLoggedIn) {
+        // User is logged in, perform any necessary cleanup
+        console.log("User logged out");
+        xumm.logout();
+    };
+
+}
 
 var xumm = new Xumm('66285bb2-33b7-406b-83de-9ccfcc2103cd');
 xumm.on("ready", () => console.log("Ready -Awaiting user sign in"));
@@ -99,24 +122,5 @@ function closeVideoPopup() {
     //window.location.href = deepLink;
 //}
 
-function loadLoginCheck() {
-    let isLoggedIn = sessionStorage.getItem('isLoggedIn')
 
-    if (isLoggedIn) {
-        // User is logged in, perform any necessary cleanup
-        console.log("User logged out");
-        xumm.logout();
-    };
 
-}
-
-function loadVideoCheck() {
-    let videoPopupCheck = sessionStorage.getItem("introVideo")
-
-    if (!videoPopupCheck){
-    const videoContainer = document.getElementById('video-container');
-    videoContainer.style.display = 'flex';
-    sessionStorage.setItem("introVideo", "true")
-    }
-    
-}
