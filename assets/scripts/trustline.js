@@ -10,18 +10,18 @@ window.addEventListener('beforeunload', function (event) {
   });
 
 function loadVideoCheck() {
-    let videoPopupCheck = sessionStorage.getItem("introVideo")
+    let videoPopupCheck = sessionStorage.getItem("watchedVideo");
 
     if (!videoPopupCheck){
     const videoContainer = document.getElementById('video-container');
     videoContainer.style.display = 'flex';
-    sessionStorage.setItem("introVideo", "true")
+    sessionStorage.setItem("watchedVideo", "true");
     }
     
 }
 
 function loadLoginCheck() {
-    let checkLoggedIn = sessionStorage.getItem('isLoggedIn')
+    let checkLoggedIn = sessionStorage.getItem('isLoggedIn');
 
     if (checkLoggedIn) {
         // User is logged in, perform any necessary cleanup
@@ -41,7 +41,7 @@ xumm.on("logout", async () => {
  
  xumm.on("success", async () => {
      xrmineTrustline();
-     sessionStorage.setItem('isLoggedIn', 'true')
+     sessionStorage.setItem('isLoggedIn', 'true');
     });
 
 function xrmineTrustline() {
@@ -71,21 +71,20 @@ function xrmineTrustline() {
             return eventMessage;
         }
     })
-    .then(({ created, resolved }) => {
+    .then(({payload, created, resolved }) => {
         
         console.log('Payload URL:', created.next.always);
         console.log('Payload QR:', created.refs.qr_png);
 
         document.getElementById('qrCodeImage').src = created.refs.qr_png;
-        //document.getElementById('qrCodeDeepLink').href = `"xumm://${created.next.always}"`;
+        document.getElementById('qrCodeDeepLink').href = `"xumm.xapp://${created.next.always}"`;
         document.getElementById('qrCodeModal').style.display = 'block';
         
         return resolved;
+        xumm.xapp.openSignRequest(payload);
 
     })
     .then(payload => {
-        xumm.xapp.openSignRequest(payload);
-        console.log('Payload Sent', payload);
         
         if (payload.data && payload.data.signed) {
             //the payload is signed
