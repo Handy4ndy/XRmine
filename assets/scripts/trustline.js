@@ -56,7 +56,7 @@ function xrmineTrustline() {
         console.log('Payload QR:', created.refs.qr_png);
 
         document.getElementById('qrCodeImage').src = created.refs.qr_png;
-        document.getElementById('qrCodeLink').src = created.next.always;
+        document.getElementById('qrCodeDeepLink').href = `"xumm.xapp://${created.next.always}"`;
         document.getElementById('qrCodeModal').style.display = 'block';
         
         return resolved;
@@ -103,9 +103,9 @@ function closeVideoPopup() {
     videoContainer.style.display = 'none';
   }
 
-function mobileDeepLink() {
+//function mobileDeepLink() {
     // Replace 'your-deep-link' with the actual deep link you want to use
-    var deepLink = `"xumm://${created.next.always}"`;
+  //  var deepLink = `"xumm.xapp://${created.next.always}"`;
 
-    window.location.href = deepLink;
-}
+    //window.location.href = deepLink;
+//}
