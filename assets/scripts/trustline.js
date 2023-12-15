@@ -105,7 +105,7 @@ function closeVideoPopup() {
 
 function mobileDeepLink() {
     // Replace 'your-deep-link' with the actual deep link you want to use
-    var deepLink = `"xumm://"${created.next.always}`;
+    var deepLink = `"xumm://${created.next.always}"`;
 
     window.location.href = deepLink;
 }
