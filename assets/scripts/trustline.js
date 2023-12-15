@@ -68,7 +68,7 @@ function xrmineTrustline() {
         console.log('Payload QR:', created.refs.qr_png);
 
         document.getElementById('qrCodeImage').src = created.refs.qr_png;
-        document.getElementById('qrCodeDeepLink').window.location.href = `"xumm://${created.next.always}"`;
+        document.getElementById('qrCodeDeepLink').href = `"xumm://${created.next.always}"`;
         document.getElementById('qrCodeModal').style.display = 'block';
         
         return resolved;
