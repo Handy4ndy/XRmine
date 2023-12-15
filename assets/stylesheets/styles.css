@@ -12,6 +12,19 @@ body {
 
 }
 
+/*---------------IntoSection-------------------*/
+.introSection {
+  display:flex;
+}
+
+.introText{
+  flex:2;
+}
+
+.introVideo{
+  flex:1;
+}
+
 /* ----------------------Video popup-------------------------*/
 
 #video-container {
@@ -53,10 +66,6 @@ main {
   margin: 20px auto; /* Center the main content horizontally and add top margin */
   border-radius: 5px;
   padding-bottom: 20px;
-}
-
-.introVideo {
-  width: 50%;
 }
 
 main p {
