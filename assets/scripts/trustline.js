@@ -1,8 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-
-    const videoContainer = document.getElementById('video-container');
-    videoContainer.style.display = 'flex';
-
+    loadVideoCheck();
     loadLoginCheck();
 
 });
@@ -111,4 +108,15 @@ function loadLoginCheck() {
         xumm.logout();
     };
 
+}
+
+function loadVideoCheck() {
+    let videoPopupCheck = sessionStorage.getItem("introVideo")
+
+    if (!videoPopupCheck){
+    const videoContainer = document.getElementById('video-container');
+    videoContainer.style.display = 'flex';
+    sessionStorage.setItem("introVideo", "true")
     }
+    
+}
