@@ -15,14 +15,20 @@ body {
 /*---------------IntoSection-------------------*/
 .introSection {
   display:flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .introText{
   flex:2;
+  
 }
 
 .introVideo{
   flex:1;
+  padding:0;
+  margin:0;
+  width:70%;
 }
 
 /* ----------------------Video popup-------------------------*/
