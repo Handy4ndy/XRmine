@@ -285,6 +285,12 @@ footer {
   .introSection{
     display:block;
   }  
+  
+  .introVideo video{
+    margin:auto;
+    width: 100%;
+  }
+  
 video {
   margin-top: 0px;
   width: 100%;
@@ -294,13 +300,15 @@ video {
 
 
   .box2 {
-    flex-basis: 60%; /* Full width when the screen size is reduced */
+    flex-basis: 90%; /* Full width when the screen size is reduced */
     margin-bottom: 20px; /* Add some spacing between stacked boxes */
   }
 
   footer {
     flex-direction: column;
+    font-size:8pt;
   }
+  
 
   .whitepaperPdf{
     width: 100%;
