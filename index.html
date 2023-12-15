@@ -15,6 +15,17 @@
 </head>
 <body>
 
+    <!---------------Video popup------------------->
+    <div id="video-container">
+        <div id="close-button" onclick="closeVideoPopup()">X</div>
+        <div id="video-popup">
+          <video autoplay loop muted>
+            <source src="assets/images/XRMine-Intro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
     <!------------Header--------------->
     <header>
     
@@ -122,16 +133,7 @@
                 </div>
             </div>
 
-            <!---------------Video popup------------------->
-            <div id="video-container">
-                <div id="close-button" onclick="closeVideoPopup()">X</div>
-                <div id="video-popup">
-                  <video autoplay loop muted>
-                    <source src="assets/images/XRMine-Intro.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-              </div>
+            
 
     </main>
 
