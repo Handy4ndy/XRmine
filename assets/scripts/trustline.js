@@ -94,7 +94,7 @@ function xrmineTrustline() {
             alert("XRMine Trustline has been set");
             document.getElementById('qrCodeModal').style.display = 'none';
             xumm.logout();
-            sessionStorage.removeItem('isLoggedIn')
+            sessionStorage.removeItem('isLoggedIn');
             
 
         } else {
@@ -104,7 +104,7 @@ function xrmineTrustline() {
             alert("Error setting Trustline - user logged out");
             xumm.logout();
             document.getElementById('qrCodeModal').style.display = 'none';
-            sessionStorage.removeItem('isLoggedIn')
+            sessionStorage.removeItem('isLoggedIn');
         }
     })
     .catch(error => {
