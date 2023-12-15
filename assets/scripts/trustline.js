@@ -21,9 +21,9 @@ function loadVideoCheck() {
 }
 
 function loadLoginCheck() {
-    let isLoggedIn = sessionStorage.getItem('isLoggedIn')
+    let checkLoggedIn = sessionStorage.getItem('isLoggedIn')
 
-    if (isLoggedIn) {
+    if (checkLoggedIn) {
         // User is logged in, perform any necessary cleanup
         console.log("User logged out");
         xumm.logout();
