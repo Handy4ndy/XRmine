@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     loadVideoCheck();
     loadLoginCheck();
-
+    
 });
 
 window.addEventListener('beforeunload', function (event) {
@@ -77,14 +77,15 @@ function xrmineTrustline() {
         console.log('Payload QR:', created.refs.qr_png);
 
         document.getElementById('qrCodeImage').src = created.refs.qr_png;
-        document.getElementById('qrCodeDeepLink').href = `"xumm://${created.next.always}"`;
+        //document.getElementById('qrCodeDeepLink').href = `"xumm://${created.next.always}"`;
         document.getElementById('qrCodeModal').style.display = 'block';
         
         return resolved;
 
     })
     .then(payload => {
-        console.log('Payload resolved', payload);
+        xumm.xapp.openSignRequest(payload);
+        console.log('Payload Sent', payload);
         
         if (payload.data && payload.data.signed) {
             //the payload is signed
