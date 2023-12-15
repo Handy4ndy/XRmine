@@ -273,10 +273,6 @@ footer {
 /* Media queries for smaller screens */
 @media (max-width: 769px) {
   
-  #video-container {
-  top: -50px;
-}
-
 #video-popup {
   max-width: 100%;
 }
