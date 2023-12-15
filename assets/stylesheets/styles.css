@@ -275,6 +275,8 @@ footer {
   
   main{
     width:100%;
+    margin-bottom:0;
+    padding-bottom:0;
   }
   
   h1{
@@ -291,7 +293,11 @@ footer {
 
   .introSection{
     display:block;
-  }  
+  }
+  
+  .introText p{
+    margin: auto;
+  }
   
   .introVideo video{
     margin:auto;
@@ -314,7 +320,10 @@ video {
   footer {
     flex-direction: column;
     font-size:8pt;
+    margin:0;
   }
+  
+  
   
 
   .whitepaperPdf{
