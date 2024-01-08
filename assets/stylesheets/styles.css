@@ -22,12 +22,12 @@ body {
 }
 
 .introText{
-  flex:2;  
+  flex:2;
+  align-self: center;
 }
 
 .introText p{
   text-align: center;
-   margin-left:20px;
 }
 
 .introVideo{
