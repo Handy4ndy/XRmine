@@ -65,6 +65,7 @@ video {
   margin-top: 20px;
   width: 80%;
   object-fit: cover;
+  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
 #close-button {
@@ -95,12 +96,15 @@ h1{
   margin:0;
 }
 
-input[type="submit"] {
+button {
   background-color: #0069E0;
   color: #ffffff;
   padding: 10px;
   font-size: 14pt;
   border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width:1px;
 }
 
 #setTL {
@@ -109,6 +113,7 @@ input[type="submit"] {
   padding: 10px;
   font-size: 14pt;
   border-radius: 5px;
+  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
 .xrplLogo {
@@ -134,6 +139,7 @@ Section{
   background-color: #ffffff;
   border-radius: 5px;
   margin: 10px;
+  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* 3 inline divs with responsive flex layout*/
@@ -152,10 +158,11 @@ Section{
   background-color: #0069E0;
   border: solid;
   border-color: #0E1C36;
-  border-width: 2px;
+  border-width: 1px;
   border-radius: 5px;
   padding: 2px;
   margin: 2px;
+  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
 .box2 img {
@@ -166,6 +173,7 @@ Section{
   border-style: solid;
   border-color: black;
   border-width: 1px;
+  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.3)
 }
 
 .box2 p {

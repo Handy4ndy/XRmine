@@ -2,9 +2,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  justify-content: space-between;
   width: max-content;
-  min-height: fit-content;
   background-color: #0069E0;
   border-style: solid;
   border-color: #ffffff;
@@ -50,6 +49,7 @@ a:hover {
 
 header{
   width: 90%;
+  flex-direction: column;
 }
   
   .navbar {
