@@ -1,6 +1,6 @@
 /* Global styles */
 body {
-  font-size: 12pt;
+  font-size: 16pt;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif ;
   width: 100%;
   margin: 0 auto; /* Center the content horizontally */
@@ -15,7 +15,7 @@ body {
 /*---------------IntoSection-------------------*/
 .introSection {
   display:flex;
-  width:80%;
+  width:100%;
   margin:auto;
   justify-content: center;
   align-content: center;
@@ -28,6 +28,7 @@ body {
 
 .introText p{
   text-align: center;
+  font-size:16pt;
 }
 
 .introVideo{
