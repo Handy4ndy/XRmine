@@ -222,13 +222,17 @@ button {
 
 .aboutXrmine h2{
 
-
 }
 
 
+/*------------------Pravacy page---------------------*/
+
+.privacyStyle {
+  max-width: 800px;
+  margin: 0 auto;
+
+}
 /*------------------Addition pages---------------------*/
-
-
 
 .feedback.label {
   display: block;
