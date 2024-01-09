@@ -80,7 +80,7 @@ video {
 /* ------------------------Main----------------------------- */
 main {
   width: 80%;
-  margin: 20px auto; /* Center the main content horizontally and add top margin */
+  margin: 20px auto; 
   border-radius: 5px;
   padding-bottom: 20px;
 }
@@ -95,6 +95,65 @@ h1{
   display: inline;
   text-decoration-style: none;
 }
+
+ol {
+  margin: auto;
+  width: 70%;
+}
+
+label {
+  display: block;
+  float: left;
+}
+
+Section{
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*------------------messageBoxes---------------------*/
+
+.messageBoxes {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.box {
+  flex-basis: 30%; 
+  text-align: center;
+  background-color: #0069E0;
+  border: solid;
+  border-color: #0E1C36;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 2px;
+  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.box img {
+  max-width: 100%;
+  max-height:150px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.3)
+}
+
+.box p {
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/*------------------homepage trustline section---------------------*/
 
 button {
   background-color: #0069E0;
@@ -125,64 +184,7 @@ button {
   padding-bottom: 20px;
 }
 
-ol {
-  margin: auto;
-  width: 70%;
-}
-
-label {
-  display: block;
-  float: left;
-}
-
-Section{
-  background-color: #ffffff;
-  border-radius: 5px;
-  margin: 10px;
-  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
-}
-
-/* 3 inline divs with responsive flex layout*/
-
-.box1 {
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  color: #ffffff;
-  padding: 10px;
-}
-
-.box2 {
-  flex-basis: 30%; 
-  text-align: center;
-  background-color: #0069E0;
-  border: solid;
-  border-color: #0E1C36;
-  border-width: 1px;
-  border-radius: 5px;
-  padding: 2px;
-  margin: 2px;
-  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
-}
-
-.box2 img {
-  max-width: 100%;
-  max-height:150px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
-  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.3)
-}
-
-.box2 p {
-  text-align: center;
-  font-size: 14px;
-  color: #ffffff;
-}
-
-/* model styles */
+/*------------------QRcode popup---------------------*/
 
 .modal {
   display: none;
@@ -216,7 +218,7 @@ Section{
   cursor: pointer;
   }
 
-
+/*------------------Addition pages---------------------*/
 
 .feedback.label {
   display: block;
@@ -238,44 +240,6 @@ Section{
   width: 70%;
   height: 2100px;
   border-style: none;
-}
-/* ------------------------Footer----------------------------- */
-
-footer {
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  max-width: 70%;
-  margin-top: 10px;
-  padding: 10px;
-  background-color: #f0f0f0; /* Optional: Add a background color */
-  border-radius: 5px;
-}
-
-.footer-text {
-  display: block;
-  text-align: center;
-  margin-bottom: 10px; /* Add spacing between the text and links */
-}
-
-.footer-links {
-  display: inline-flex;
-  flex-direction: row;
-  text-align: center;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer-links p {
-  align-self: center;
-}
-
-.footer-links a {
-  margin: 0 5px;
-  text-decoration: none;
-  color: #0069E0; /* Optional: Customize link color */
 }
 
 /* Media queries for smaller screens */
@@ -317,22 +281,11 @@ video {
   width: 100%;
   object-fit: cover;
 }
-  
-
 
   .box2 {
-    flex-basis: 90%; /* Full width when the screen size is reduced */
-    margin-bottom: 20px; /* Add some spacing between stacked boxes */
+    flex-basis: 90%;
+    margin-bottom: 20px; 
   }
-
-  footer {
-    flex-direction: column;
-    font-size:8pt;
-    margin:0;
-  }
-  
-  
-  
 
   .whitepaperPdf{
     width: 100%;

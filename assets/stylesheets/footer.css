@@ -1,0 +1,55 @@
+footer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    font-size: 12pt;
+    background-color: #f0f0f0; /* Optional: Add a background color */
+    border-radius: 5px;
+  }
+  
+  .footer-text {
+    display: block;
+    text-align: center; /* Add spacing between the text and links */
+  }
+  
+  .footer-text p{
+    text-align: center;
+    width:80%;
+    margin:10px auto;
+  }
+  
+  .footer-links {
+    display: inline-flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-links p {
+    align-self: center;
+  }
+  
+  .footer-links a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #0069E0; /* Optional: Customize link color */
+  }
+
+/* Media queries for smaller screens */
+
+
+
+@media (max-width: 769px) {
+
+
+footer {
+    flex-direction: column;
+    font-size:8pt;
+    margin:0;
+  }
+
+}
