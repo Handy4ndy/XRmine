@@ -12,6 +12,7 @@ header {
   border-radius: 5px;
   margin: auto;
   padding: 10px; /* Move padding here */
+  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
 .navbar {
