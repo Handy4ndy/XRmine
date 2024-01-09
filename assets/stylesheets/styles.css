@@ -8,7 +8,7 @@ body {
   background-image: url(img01.jpg);
   background-repeat: repeat-y;
   background-position: cover;
-  padding-top: 5px;
+  padding-top: 10px;
 
 }
 
@@ -28,7 +28,6 @@ body {
 
 .introText p{
   text-align: center;
-  font-size:16pt;
 }
 
 .introVideo{

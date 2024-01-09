@@ -4,7 +4,7 @@ header {
   align-items: center;
   justify-content: space-between;
   width: max-content;
-  font-size: 14px;
+  font-size: 14pt;
   background-color: #0069E0;
   border-style: solid;
   border-color: #ffffff;
@@ -52,6 +52,7 @@ a:hover {
 header{
   width: 90%;
   flex-direction: column;
+  font-size: 12pt;
 }
   
   .navbar {
