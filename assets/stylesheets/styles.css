@@ -221,16 +221,21 @@ button {
 /*------------------About page---------------------*/
 
 .aboutXrmine h2{
-
+  padding-top:5px;
 }
 
 
-/*------------------Pravacy page---------------------*/
+/*------------------Privacy page---------------------*/
 
 .privacyStyle {
-  max-width: 800px;
+  width:70%;
+  padding-top:10px;
+  font-size: 14pt;
   margin: 0 auto;
+}
 
+.privacyStyle li{
+  margin:5px;
 }
 /*------------------Addition pages---------------------*/
 
