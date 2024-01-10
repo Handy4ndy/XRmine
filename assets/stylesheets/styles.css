@@ -15,10 +15,10 @@ body {
 /*---------------IntoSection-------------------*/
 .introSection {
   display:flex;
-  width:100%;
+  width:90%;
   margin:auto;
-  justify-content: center;
   align-content: center;
+  justify-content: space-evenly;
 }
 
 .introText{
@@ -32,14 +32,11 @@ body {
 
 .introVideo{
   flex:2;
+  max-width:80%;
   align-self: center;
   padding:0;
   margin:0;
-}
-
-.introVideo video{
-  width:100%;
-  padding-top: 5px;
+  margin-bottom:5px;
 }
 
 /* ----------------------Video popup-------------------------*/
@@ -294,6 +291,7 @@ button {
   .introVideo video{
     margin:auto;
     width: 100%;
+    margin-bottom:0;
   }
   
 video {
