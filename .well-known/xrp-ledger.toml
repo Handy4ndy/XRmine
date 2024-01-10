@@ -10,7 +10,7 @@ desc = "XRMine is a platform to reward the xrpl community for their engagement"
 icon = "https://handy4ndy.github.io/XRmine_0.0.1/assets/images/XRmineimage.png"
 
 [[TOKENS.WEBLINKS]]
-url = "https://handy4ndy.github.io/XRmine_0.0.1"
+url = "https://handy4ndy.github.io/XRmine_0.0.1/"
 type = "website"
 title = "Official Website"
 
