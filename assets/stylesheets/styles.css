@@ -7,6 +7,7 @@ body {
   text-align: center;
   background-image: url(img01.jpg);
   background-repeat: repeat-y;
+  background-position: cover;
   padding-top: 10px;
 
 }
@@ -90,6 +91,7 @@ main p {
 
 h1{
   display: inline;
+  text-decoration-style: none;
 }
 
 ol {
@@ -151,23 +153,32 @@ Section{
 
 /*------------------key features section---------------------*/
 
-
-#feature2{
-  display: none;
+.featuresSection {
+  position: relative;
+  min-height: 100px;
+  height:100%;
 }
 
-#feature3{
-  display: none;
+.feature {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; /* Start with opacity 0 */
+  transition: opacity 2s ease-in-out; /* Add a smooth opacity transition */
 }
 
-#feature4{
-  display: none;
+.feature.active {
+  opacity: 1; /* Change to opacity 1 for the active feature */
+  z-index: 1; /* Ensure the active feature is on top */
 }
 
-#featureCounter{
-  display: none;
+.feature img{
+  min-height:200px;
 }
 
+#featureCounter {
+  display: none;
+}
 /*------------------homepage trustline section---------------------*/
 
 button {
