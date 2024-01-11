@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    loadVideoCheck();
+    //loadVideoCheck();
     loadLoginCheck();
     
 });
@@ -9,7 +9,7 @@ window.addEventListener('beforeunload', function (event) {
     xumm.logout();
   });
 
-function loadVideoCheck() {
+/*function loadVideoCheck() {
     let videoPopupCheck = sessionStorage.getItem("watchedVideo");
 
     if (!videoPopupCheck){
@@ -18,7 +18,7 @@ function loadVideoCheck() {
     sessionStorage.setItem("watchedVideo", "true");
     }
     
-}
+}*/
 
 function loadLoginCheck() {
     let checkLoggedIn = sessionStorage.getItem('isLoggedIn');
@@ -119,7 +119,7 @@ function closeQRCodeModal() {
     xumm.logout();
 }
 
-function closeVideoPopup() {
+/*function closeVideoPopup() {
     const videoContainer = document.getElementById('video-container');
     videoContainer.style.display = 'none';
   }
@@ -129,7 +129,7 @@ function closeVideoPopup() {
   //  var deepLink = `"xumm.xapp://${created.next.always}"`;
 
     //window.location.href = deepLink;
-//}
+//}*/
 
 
 
