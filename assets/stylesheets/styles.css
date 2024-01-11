@@ -151,15 +151,6 @@ Section{
 
 /*------------------key features section---------------------*/
 
-.feature {
-    /* Add any specific styling for individual features */
-    opacity: 0;
-    transition: opacity 1s ease-in-out; /* Add a smooth opacity transition */
-}
-
-.feature.active {
-    opacity: 1;
-}
 
 #feature2{
   display: none;
