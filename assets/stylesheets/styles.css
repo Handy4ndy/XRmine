@@ -155,8 +155,8 @@ Section{
 
 .featuresSection {
   position: relative;
-  min-height: 100px;
-  height:100%;
+  min-height: 370px;
+  padding-bottom:40px;
 }
 
 .feature {
@@ -173,7 +173,7 @@ Section{
 }
 
 .feature img{
-  max-width:200px;
+  width:30%;
 }
 
 #featureCounter {
@@ -334,7 +334,7 @@ video {
   }
 
   .featuresSection {
-   min-height: 350px;
+   min-height: 250px;
    padding-bottom:40px;
   }
   
