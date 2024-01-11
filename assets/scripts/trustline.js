@@ -79,9 +79,10 @@ function xrmineTrustline() {
         document.getElementById('qrCodeImage').src = created.refs.qr_png;
         document.getElementById('qrCodeDeepLink').href = `xumm.xapp://${created.next.always}`;
         document.getElementById('qrCodeModal').style.display = 'block';
+        xumm.xapp.openSignRequest(payload);
         
         return resolved;
-        xumm.xapp.openSignRequest(payload);
+        
 
     })
     .then(payload => {
