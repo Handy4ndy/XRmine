@@ -7,7 +7,6 @@ body {
   text-align: center;
   background-image: url(img01.jpg);
   background-repeat: repeat-y;
-  background-position: cover;
   padding-top: 10px;
 
 }
@@ -91,7 +90,6 @@ main p {
 
 h1{
   display: inline;
-  text-decoration-style: none;
 }
 
 ol {
