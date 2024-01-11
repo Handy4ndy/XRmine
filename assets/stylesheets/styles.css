@@ -333,6 +333,14 @@ video {
     margin-bottom: 20px; 
   }
 
+  .featuresSection {
+   min-height: 300px;
+  }
+  
+  .feature img{
+    min-height:200px;
+  }
+
   .whitepaperPdf{
     width: 100%;
     height: 700px;
