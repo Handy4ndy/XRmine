@@ -334,11 +334,11 @@ video {
   }
 
   .featuresSection {
-   min-height: 300px;
+   min-height: 320px;
   }
   
   .feature img{
-    min-height:200px;
+   width:70%;
   }
 
   .whitepaperPdf{
