@@ -4,12 +4,11 @@ document.addEventListener("DOMContentLoaded", function () {
     function showFeature(featureNumber) {
         // Hide all features
         for (let i = 1; i <= 4; i++) {
-            document.getElementById(`feature${i}`).style.opacity = "0";
-            document.getElementById(`feature${i}`).style.transition = "opacity 2s ease-in-out"; // Add a smooth opacity transition
+            document.getElementById(`feature${i}`).classList.remove("active");
         }
 
         // Show the selected feature
-        document.getElementById(`feature${featureNumber}`).style.opacity = "1";
+        document.getElementById(`feature${featureNumber}`).classList.add("active");
         document.getElementById("featureCounter").innerText = featureNumber;
     }
 
