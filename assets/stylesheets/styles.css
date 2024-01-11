@@ -151,6 +151,20 @@ Section{
   color: #ffffff;
 }
 
+/*------------------key features section---------------------*/
+
+#feature2{
+  display: none;
+}
+
+#feature3{
+  display: none;
+}
+
+#feature4{
+  display: none;
+}
+
 /*------------------homepage trustline section---------------------*/
 
 button {
