@@ -9,7 +9,7 @@ frontend:
       commands: 
       - npm run build
   artifacts:
-    baseDirectory: dist
+    baseDirectory: https://handy4ndy.github.io/XRmine/
     files:
       - 'index.html'
       - 'about.html'
