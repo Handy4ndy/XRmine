@@ -6,23 +6,10 @@ frontend:
         - npm ci
     # IMPORTANT - Please verify your build commands
     build:
-      commands: 
-      - npm run build
+      commands: []
   artifacts:
-    baseDirectory: https://handy4ndy.github.io/XRmine/
+    baseDirectory: dist
     files:
       - 'index.html'
-      - 'about.html'
-      - 'app.html'
-      - 'contact.html'
-      - 'privacypolicy.html'
-      - 'whitepaper.html'
-      - 'package-lock.json'
-      - 'package.json'
-      - 'README.md'
   cache:
     paths:
-      - node_modules/**/*
-      - assets/images/*
-      - assets/stylesheets/*
-      - assets/scripts/*
