@@ -8,8 +8,20 @@ frontend:
     build:
       commands: []
   artifacts:
-    baseDirectory: https://github.com/Handy4ndy/XRmine_0.0.1/tree/main
+    baseDirectory: dist
     files:
       - 'index.html'
+      - 'about.html'
+      - 'app.html'
+      - 'contact.html'
+      - 'privacypolicy.html'
+      - 'whitepaper.html'
+      - 'package-lock.json'
+      - 'package.json'
+      - 'README.md'
   cache:
     paths:
+      - node_modules/**/*
+      - assets/images/*
+      - assets/stylesheets/*
+      - assets/scripts/*
