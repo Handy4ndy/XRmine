@@ -1,9 +1,6 @@
 {
   "dependencies": {
-    "xrpl": "^2.9.0",
-    "xrpl-client": "^2.1.0",
-    "xumm": "^1.5.4",
-    "xumm-sdk": "^1.8.6"
+    
   }
   
 }
