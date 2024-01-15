@@ -10,10 +10,10 @@ frontend:
   artifacts:
     baseDirectory: dist
     files:
-      - 'index.html'
-      - 'about.html'
-      - 'contact.html'
+      - ''
   cache:
     paths:
       - node_modules/**/*
-
+      - assets/images/*
+      - assets/stylesheets/*
+      - assets/scripts/*
