@@ -9,7 +9,7 @@ frontend:
       commands: 
       - npm run build
   artifacts:
-    baseDirectory: XRmine_0.0.1
+    baseDirectory: dist
     files:
       - 'index.html'
       - 'about.html'
