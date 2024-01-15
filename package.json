@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "express": "^4.18.2",
     "node": "^20.4.0",
     "xrpl": "^2.9.0",
     "xrpl-client": "^2.1.0",
