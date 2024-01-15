@@ -6,7 +6,8 @@ frontend:
         - npm ci
     # IMPORTANT - Please verify your build commands
     build:
-      commands: []
+      commands: 
+      - npm run build
   artifacts:
     baseDirectory: XRmine_0.0.1
     files:
