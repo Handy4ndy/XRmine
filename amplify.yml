@@ -8,7 +8,7 @@ frontend:
     build:
       commands: []
   artifacts:
-    baseDirectory: dist
+    baseDirectory: XRmine_0.0.1
     files:
       - 'index.html'
   cache:
