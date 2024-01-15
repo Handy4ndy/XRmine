@@ -3,8 +3,6 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm ci
-    # IMPORTANT - Please verify your build commands
     build:
       commands: []
   artifacts:
