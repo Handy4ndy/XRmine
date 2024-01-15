@@ -3,12 +3,17 @@ frontend:
   phases:
     preBuild:
       commands:
+        - npm ci
+    # IMPORTANT - Please verify your build commands
     build:
       commands: []
   artifacts:
     baseDirectory: dist
     files:
-      - '**/*'
+      - 'index.html'
+      - 'about.html'
+      - 'contact.html'
   cache:
     paths:
       - node_modules/**/*
+
