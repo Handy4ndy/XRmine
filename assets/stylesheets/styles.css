@@ -104,6 +104,10 @@ label {
   float: left;
 }
 
+em {
+  text-decoration-style: none;
+}
+
 Section{
   background-color: #ffffff;
   border-radius: 5px;
