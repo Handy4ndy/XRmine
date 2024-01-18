@@ -111,9 +111,9 @@ Section{
   box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
-/*------------------messageBoxes---------------------*/
+/*------------------appDemo---------------------*/
 
-.messageBoxes {
+.appDemo {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -121,7 +121,7 @@ Section{
   padding: 10px;
 }
 
-.box {
+.appDemoBox {
   flex-basis: 30%; 
   text-align: center;
   background-color: #0069E0;
@@ -134,7 +134,7 @@ Section{
   box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
-.box img {
+.appDemoBox img {
   max-width: 100%;
   max-height:150px;
   margin-bottom: 10px;
@@ -145,7 +145,7 @@ Section{
   box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.3)
 }
 
-.box p {
+.appDemoBox p {
   text-align: center;
   font-size: 14px;
   color: #ffffff;
@@ -308,6 +308,8 @@ button {
   max-width: 100%;
 }
 
+
+/*-------Mobile------Intro Section--------*/
   .introSection{
     display:block;
   }
@@ -322,13 +324,9 @@ button {
     margin-bottom:0;
   }
   
-video {
-  margin-top: 0px;
-  width: 100%;
-  object-fit: cover;
-}
+/*-------Mobile------app demo--------*/
 
-  .box {
+  .appDemoBox {
     flex-basis: 90%;
     margin-bottom: 20px; 
   }
