@@ -192,7 +192,7 @@ Section{
 #featureCounter {
   display: none;
 }
-/*------------------homepage trustline section---------------------*/
+/*------------------homepage buttons/navigation---------------------*/
 
 button {
   background-color: #0069E0;
@@ -221,6 +221,30 @@ button {
 
 #xrmineTL{
   padding-bottom: 20px;
+}
+
+/*------------------Feedback Section-------------------*/
+
+.socialBtns {
+  display: flex; 
+  max-width: 70%;
+  justify-content: space-evenly; 
+  align-items: center; 
+}
+
+.socialBtns a {
+  text-align: center; 
+  text-decoration: none;
+  color: black; 
+  padding: 0 0 0 0;
+  margin:0 0 0 0;
+   
+}
+
+.socialLogo {
+  max-width: 48px;
+  display: block;
+  margin: 0 auto; 
 }
 
 /*------------------QRcode popup---------------------*/
@@ -336,6 +360,19 @@ button {
     width: 100%;
     margin-bottom:0;
   }
+
+/*-------Mobile------buttons/links------------*/
+
+.socialBtns a {
+  text-align: center;
+  color: black;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0; 
+}
+
+.socialBtns a img{
+  width: 50%;
+}
   
 /*-------Mobile------app demo--------*/
 
