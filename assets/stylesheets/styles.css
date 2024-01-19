@@ -91,7 +91,10 @@ main p {
 
 h1{
   display: inline;
-  text-decoration-style: none;
+}
+
+h2{
+  margin:0;
 }
 
 ol {
@@ -104,9 +107,7 @@ label {
   float: left;
 }
 
-em {
-  text-decoration-style: none;
-}
+
 
 Section{
   background-color: #ffffff;
