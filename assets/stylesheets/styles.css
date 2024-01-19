@@ -157,8 +157,16 @@ Section{
 }
 
 /*------------------key features section---------------------*/
+.featuresFlex{
+  display:flex;
+}
+
+.featuresFlex p{
+  flex: 1;
+}
 
 .featuresSection {
+  flex:1;
   position: relative;
   min-height: 370px;
   padding-bottom:40px;
