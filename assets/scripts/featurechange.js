@@ -21,5 +21,5 @@ document.addEventListener("DOMContentLoaded", function () {
     showFeature(currentFeature);
 
     // Set an interval to switch features every 6 seconds
-    setInterval(switchFeature, 6000);
+    setInterval(switchFeature, 10000);
 });
