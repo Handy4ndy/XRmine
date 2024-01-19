@@ -161,7 +161,7 @@ Section{
   display:flex;
 }
 
-.featuresFlex p{
+.featuresFlexText{
   flex: 1;
 }
 
