@@ -161,41 +161,45 @@ Section{
 }
 
 /*------------------key features section---------------------*/
-.featuresFlex{
-  display:flex;
+.featuresFlex {
+  display: flex;
+  align-items: center; /* Center vertically */
 }
 
-.featuresFlexText{
+.featuresFlexText {
   flex: 1;
 }
 
 .featuresSection {
-  flex:1;
+  flex: 1;
   position: relative;
   min-height: 370px;
-  padding-bottom:40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
 }
 
 .feature {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0; /* Start with opacity 0 */
-  transition: opacity 2s ease-in-out; /* Add a smooth opacity transition */
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
 }
 
 .feature.active {
-  opacity: 1; /* Change to opacity 1 for the active feature */
-  z-index: 1; /* Ensure the active feature is on top */
+  opacity: 1;
+  z-index: 1;
 }
 
-.feature img{
-  width:30%;
+.feature img {
+  min-width: 350px;
 }
 
 #featureCounter {
   display: none;
 }
+
 /*------------------homepage buttons/navigation---------------------*/
 
 button {
