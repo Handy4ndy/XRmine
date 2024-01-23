@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function showFeature(featureNumber) {
         // Hide all features
-        for (let i = 1; i <= 4; i++) {
+        for (let i = 1; i <= 3; i++) {
             document.getElementById(`feature${i}`).classList.remove("active");
         }
 
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function switchFeature() {
-        currentFeature = (currentFeature % 4) + 1; // Cycle through 1 to 4
+        currentFeature = (currentFeature % 3) + 1; // Cycle through 1 to 4
         showFeature(currentFeature);
     }
 
