@@ -39,6 +39,10 @@ body {
   margin-bottom:5px;
 }
 
+.introVideo a{
+  display:block;
+}
+
 /* ----------------------Video popup-------------------------*/
 
 #video-container {
@@ -224,6 +228,10 @@ button {
 }
 
 /*------------------Feedback Section-------------------*/
+
+.socialIcons{
+  margin:auto;
+}
 
 .socialBtns {
   display: flex; 
