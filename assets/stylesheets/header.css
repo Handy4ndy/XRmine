@@ -2,17 +2,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  width: max-content;
+  justify-content: space-evenly;
+  width: 100%;
   font-size: 14pt;
   background-color: #0069E0;
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 2px;
-  border-radius: 5px;
-  margin: auto;
+  margin: -10px auto;
   padding: 10px; /* Move padding here */
-  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+  
 }
 
 .navbar {
