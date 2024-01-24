@@ -5,7 +5,7 @@ body {
   width: 100%;
   margin: 0 auto; /* Center the content horizontally */
   text-align: center;
-  background-image: url(alex-shuper-3OpOV8ntLj4-unsplash.jpg);
+  /*background-image: url(alex-shuper-3OpOV8ntLj4-unsplash.jpg);*/
   background-repeat: repeat-y;
   background-position: cover;
   padding-top: 10px;
@@ -85,6 +85,7 @@ main {
   margin: 20px auto; 
   border-radius: 5px;
   padding-bottom: 20px;
+  background: linear-gradient(to bottom, #0069E0, #abadf4);
 }
 
 main p {
