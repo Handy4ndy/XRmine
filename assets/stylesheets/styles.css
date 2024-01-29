@@ -318,6 +318,10 @@ button {
 .handyDivImg {
   flex:1
 }
+
+.handyDivImg img{
+  width:60%;
+}
 /*------------------Privacy page---------------------*/
 
 .privacyStyle {
