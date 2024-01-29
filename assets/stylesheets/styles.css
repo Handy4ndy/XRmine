@@ -401,6 +401,10 @@ button {
  flex-direction: column; 
 }
 
+.featuresFlexText img{
+  width:70%;
+}
+
 .featuresSection {
  min-height: 350px;
  width:90%;
