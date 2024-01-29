@@ -311,8 +311,12 @@ button {
   margin:auto;
 }
 
-.handyDiv img {
-  width:20%;
+.handyDivText{
+  flex:2
+}
+
+.handyDivImg {
+  flex:1
 }
 /*------------------Privacy page---------------------*/
 
