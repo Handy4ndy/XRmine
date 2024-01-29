@@ -388,34 +388,41 @@ button {
     margin-bottom:0;
   }
 
-/*-------Mobile------buttons/links------------*/
 
-.socialBtns a {
-  text-align: center;
-  color: black;
-  padding: 0 0 0 0;
-  margin: 0 0 0 0; 
-}
-
-.socialBtns a img{
-  width: 50%;
-}
-  
 /*-------Mobile------app demo--------*/
 
-  .appDemoBox {
-    flex-basis: 90%;
-    margin-bottom: 20px; 
-  }
+.appDemoBox {
+  flex-basis: 90%;
+  margin-bottom: 20px; 
+}
 
-  .featuresSection {
-   min-height: 250px;
-   padding-bottom:40px;
+/*-------Mobile------XRPL features--------*/
+
+.featuresFlex {
+ flex-direction: column; 
+}
+
+.featuresSection {
+ min-height: 350px;
+ width:90%;
+}
+
+.feature img{
+ max-width:70%;
+}
+
+/*-------Mobile------buttons/links------------*/
+
+  .socialIcons {
+    width:100%;
   }
   
-  .feature img{
-   max-width:70%;
+  .socialBtns a{
+    margin:5px;
   }
+
+  
+
 
   .whitepaperPdf{
     width: 100%;
