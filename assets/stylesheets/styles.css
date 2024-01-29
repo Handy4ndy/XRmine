@@ -308,7 +308,7 @@ button {
 .handyDiv{
   display:flex;
   width:80%;
-  margin:auto;
+  margin:10px auto;
 }
 
 .handyDivText{
@@ -320,6 +320,24 @@ button {
 }
 
 .handyDivImg img{
+  width:60%;
+}
+
+.lambiDiv{
+  display:flex;
+  width:80%;
+  margin:10px auto;
+}
+
+.lambiDivText{
+  flex:2
+}
+
+.lambiDivImg {
+  flex:1
+}
+
+.lambiDivImg img{
   width:60%;
 }
 /*------------------Privacy page---------------------*/
