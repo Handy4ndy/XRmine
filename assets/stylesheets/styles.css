@@ -451,6 +451,16 @@ button {
   }
 
   
+/*---------Mobile----------about us-------------*/
+  
+  
+.handyDiv{
+  flex-direction: column-reverse;
+}
+
+.lambiDiv{
+  flex-direction: column;
+}
 
 
   .whitepaperPdf{
