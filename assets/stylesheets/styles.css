@@ -305,6 +305,10 @@ button {
   padding:5px;
 }
 
+.roadmapImg{
+  width:70%;
+}
+
 .handyDiv{
   display:flex;
   width:80%;
