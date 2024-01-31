@@ -307,22 +307,22 @@ button {
 
 .whitepaperLink {
   position: relative;
-  max-width: 100%; /* Adjust this based on your layout */
+  max-width: 80%; /* Adjust this based on your layout */
+  margin:auto;
 }
 
 .roadmapImg {
-  width: 100%; /* Adjust this based on your layout */
+  width: 80%; /* Adjust this based on your layout */
   height: auto; /* Maintain aspect ratio */
 }
 
 .whitepaperBtn {
   position: absolute;
   bottom: 10px; /* Adjust this to set the distance from the bottom */
-  right: 10px; /* Adjust this to set the distance from the right */
+  right: 15%; /* Adjust this to set the distance from the right */
   padding: 10px 15px;
   background-color: #ffffff; /* Adjust this based on your design */
   color: #000000; /* Adjust this based on your design */
-  text-decoration: none;
   border: 1px solid #000000; /* Adjust this based on your design */
   border-radius: 5px;
 }
