@@ -430,6 +430,7 @@ button {
 @media (max-width: 769px) {
   
   main{
+    font-size: 12pt;
     width:100%;
     margin-bottom:0;
     padding-bottom:0;
@@ -519,6 +520,13 @@ button {
   .whitepaperDivText {
     width:100%;
     margin:10px auto;
+  }
+  
+  .whitepaperDivImg a:hover{
+    padding:0;
+  }
+  .whitepaperDivImg img{
+    width:80%;
   }
   
   .whitepaperDivR{
