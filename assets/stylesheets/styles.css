@@ -387,39 +387,31 @@ button {
 }
 
 .whitepaperDivImg {
-  flex:1
+  flex:1;
 }
-
+.whitepaperDivImg img{
+  width:50%
+}
 
 .whitepaperDivL{
   display:flex;
   width:80%;
   margin:10px auto;
-  flex-direction: column-reverse;
+  flex-direction: row-reverse;
+}
+
+
+
+/*------------------Addition pages---------------------*/
+
+.feedback.label {
+  display: block;
+  margin-bottom: 5px;
 }
 
 .whitepaperPdf{
   width: 50%;
   height:700px;
-}
-
-/*------------------Additional pages---------------------*/
-
-.forms-section {
-  background-color: #f9f9f9;
-  padding: 20px;
-}
-
-.form-section {
-  margin-bottom: 30px;
-  background-color: #ffffff;
-  padding: 20px;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-}
-
-.formIframe{
-  display: none;
 }
 
 .feedback{
@@ -520,6 +512,19 @@ button {
   flex-direction: column;
 }
 
+  .whitepaperDivL{
+    flex-direction:column;
+    width:100%;
+  }
+  .whitepaperDivText {
+    width:100%;
+    margin:10px auto;
+  }
+  
+  .whitepaperDivR{
+    flex-direction:column;
+    width:100%;
+  }
 
   .whitepaperPdf{
     width: 100%;
