@@ -307,23 +307,23 @@ button {
 
 .whitepaperLink {
   position: relative;
-  max-width: 80%; /* Adjust this based on your layout */
+  max-width: 80%; 
   margin:auto;
 }
 
 .roadmapImg {
-  width: 60%; /* Adjust this based on your layout */
-  height: auto; /* Maintain aspect ratio */
+  width: 60%; 
+  height: auto; 
 }
 
 .whitepaperBtn {
   position: absolute;
-  bottom: 10px; /* Adjust this to set the distance from the bottom */
-  right: 15%; /* Adjust this to set the distance from the right */
+  bottom: 10px; 
+  right: 15%;
   padding: 10px 15px;
-  background-color: #ffffff; /* Adjust this based on your design */
-  color: #000000; /* Adjust this based on your design */
-  border: 1px solid #000000; /* Adjust this based on your design */
+  background-color: #ffffff; 
+  color: #000000; 
+  border: 1px solid #000000; 
   border-radius: 5px;
 }
 
@@ -388,9 +388,11 @@ button {
 
 .whitepaperDivImg {
   flex:1;
+  margin: auto;
+  padding:5px;
 }
 .whitepaperDivImg img{
-  width:50%
+  width:80%;
 }
 
 .whitepaperDivL{
@@ -400,7 +402,9 @@ button {
   flex-direction: row-reverse;
 }
 
-
+.roadmapWhitepaper{
+  width:100%;
+}
 
 /*------------------Addition pages---------------------*/
 
