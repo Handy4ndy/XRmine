@@ -406,6 +406,12 @@ button {
   width:100%;
 }
 
+.whitepaperDivRoadmap{
+  display:flex;
+  flex-direction: column;
+}
+
+
 /*------------------Addition pages---------------------*/
 
 .feedback.label {
