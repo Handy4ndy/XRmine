@@ -376,6 +376,32 @@ button {
 }
 /*------------------Addition pages---------------------*/
 
+.whitepaperDivR{
+  display:flex;
+  width:80%;
+  margin:10px auto;
+}
+
+.whitepaperDivText{
+  flex:2
+}
+
+.whitepaperDivImg {
+  flex:1
+}
+
+
+.whitepaperDivL{
+  display:flex;
+  width:80%;
+  margin:10px auto;
+  flex-direction: column-reverse;
+}
+
+
+
+/*------------------Addition pages---------------------*/
+
 .feedback.label {
   display: block;
   margin-bottom: 5px;
