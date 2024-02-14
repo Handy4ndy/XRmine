@@ -413,12 +413,12 @@ button {
 
 .whitepaperObj{
   height:850px;
-  padding:10px
+  padding-top:5px;
  }
  
  .whitepaperPdf{
    width: 50%;
-   height:825px;
+   height:840px;
  }
 
 .whitepaperButtons{
