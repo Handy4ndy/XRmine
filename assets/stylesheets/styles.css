@@ -425,7 +425,7 @@ button {
   padding-bottom: 10px;
 }
 
-/*------------------Addition pages---------------------*/
+/*------------------Contact page---------------------*/
 
 .feedback.label {
   display: block;
@@ -443,6 +443,16 @@ button {
   height: 2100px;
   border-style: none;
 }
+
+.form-section {
+  max-width: 300px; /* Adjust as needed */
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
 
 /* Media queries for smaller screens */
 @media (max-width: 769px) {
