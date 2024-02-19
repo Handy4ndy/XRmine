@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const formSections = document.querySelectorAll('.form-section');
 
     // Function to check if an element is in the viewport
-    function isInViewport(element, threshold = 0.2) {
+    function isInViewport(element, threshold = 0.1) {
         const rect = element.getBoundingClientRect();
         const windowHeight = window.innerHeight || document.documentElement.clientHeight;
         const topVisible = rect.top <= windowHeight * (1 - threshold);
